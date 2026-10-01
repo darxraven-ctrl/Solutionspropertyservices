@@ -1,0 +1,33 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Python build/cache and virtual environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Front-end dependencies and build caches
+node_modules/
+.next/
+.vite/
+
+# Local application data and private customer uploads
+*.sqlite
+*.sqlite3
+*.db
+data/
+uploads/
+
+# Local system and editor files
+.DS_Store
+.idea/
+.vscode/
+*.log
